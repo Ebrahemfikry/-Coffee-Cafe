@@ -1,0 +1,813 @@
+.logo i,
+.logo a{
+    color: rgb(194, 89, 28);
+}
+header{
+    overflow: hidden; 
+    height: 100vh;
+}
+@media only screen and (max-width: 600px) {
+    header{
+        overflow: hidden; 
+        height: 50vh;
+    }
+}
+@media only screen and (min-width: 600px){
+    header{
+        overflow: hidden; 
+        height: 80vh;
+    }
+}
+@media only screen and (min-width: 992px){
+    header{
+        overflow: hidden; 
+        height: 105vh;
+    }
+}
+@media only screen and (min-width: 1920px){
+    header{
+        overflow: hidden; 
+        height: 95vh;
+    }
+}
+header img{
+    width: 100%;
+    height: 100%;
+}
+#mood{
+    display: none;
+}
+.be{
+    position: relative;
+}
+.be::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(116, 66, 19, 0.637);
+    /* background-color: rgb(54, 31, 10); */
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.orang{
+    background-color: #f80;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.info{
+    position: absolute;
+    width: 600px;
+    top: 25%;
+    left: 5%;
+    z-index: 3;
+}
+.info h1{
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.info p{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .carousel-indicators {
+        bottom: -10px;
+    }
+    .info{
+        top: 5%;
+        width: 300px;
+    }
+    .info h1{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .info p{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .info a{
+        font-size: 12px;
+        padding-block: 4px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .carousel-indicators {
+        bottom: -10px;
+    }
+    .info{
+        top: 5%;
+        width: 400px;
+    }
+    .info h1{
+        font-size: 30px;
+    }
+    .info p{
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .carousel-indicators {
+        bottom: 10px;
+    }
+    .info{
+        top: 20%;
+        width: 500px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .carousel-indicators {
+        bottom: 10px;
+    }
+    .info{
+        top: 25%;
+        width: 600px;
+    }
+    .info h1{
+        font-size: 50px;
+    }
+    .info p{
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .carousel-indicators {
+        bottom: 120px;
+    }
+}
+/* end header ############################### */
+.best{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+    padding: 0 40px;
+}
+.best .box{
+    width: 200px;
+    margin: 20px;
+    transition: all 1s;
+}
+.best .box span{
+    color: #777;
+}
+.best .box p{
+    color: #888;
+}
+.best .img img{
+    width: 100%;
+    height: 100%;
+    transition: all .5s;
+    border-radius: 10px;
+}
+.best .img img:hover{
+    transform: translatey(-20px);
+}
+@media only screen and (max-width: 600px) {
+    .best{
+        flex-direction: column;
+        margin: 0;
+    }
+    .best .box{
+        width: 80%;
+    }
+    .best a{
+        font-size: 12px;
+        padding-block: 4px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .best{
+        flex-direction: column;
+    }
+    .best .box{
+        width: 80%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .best{
+        flex-direction: column;
+    }
+    .best .box{
+        width: 400px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .best{
+        flex-direction: row;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .best{
+        flex-direction: row;
+    }
+}
+/* end Best ####################################### */
+.Product {
+    margin-top: 70px;
+    background-color: rgb(238, 238, 238);
+    padding-block: 30px;
+}
+.Product .head{
+    margin: 30px auto;
+}
+.Product .head span{
+    color: #777;
+    font-weight: 600;
+}
+.Product .head h2{
+    color: rgb(7, 58, 92);
+    font-weight: 600;
+}
+.Product .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Product .content .box{
+    width: 350px;
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.Product .content .box img{
+    width: 100%;
+    height: 60%;
+}
+.Product .content .box .in{
+    padding: 20px;
+    width: 100%;
+    height: 40%;
+}
+.Product .content .box .in h3{
+    font-size: 20px;
+}
+.Product .content .box .in p{
+    font-size: 18px;
+    margin-top: 15px;
+    color: #777;
+}
+@media only screen and (max-width: 600px) {
+    .Product .content{
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .Product .content{
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .Product .content{
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .Product .content{
+        flex-direction: row;
+    }
+    .Product .content .box{
+        margin:0 30px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .Product .content{
+        flex-direction: row;
+    }
+}
+/* end product ###################################### */
+.service {
+    margin-top: 50px;
+    padding-block: 40px;
+}
+.service .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.service .container .box{
+    width: 45%;
+}
+.service .container .box span{
+    color: rgb(87, 87, 87);
+    font-weight: 600;
+}
+.service .container .box h3{
+    color: rgb(7, 58, 92);
+    font-weight: 600;
+}
+.service .container .box p{
+    color: #777;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.service .container .contain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.service .container .contain{
+    width: 50%;
+}
+.service .container .contain .box{
+    width: 250px;
+    margin: 20px 0;
+}
+.service .container .contain .box i{
+    color: rgb(194, 89, 28);
+}
+.service .container .contain .box h3{
+    margin: 20px 0;
+    font-size: 25px;
+}
+.service .container .contain .box p{
+    font-size: 18px;
+    font-weight: normal;
+}
+@media only screen and (max-width: 600px) {
+    .service .container{
+        flex-direction: column;
+    }
+    .service .container .box{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    .service .container .contain .box{
+        width: 80%;
+        margin: auto;
+        margin-block: 10px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .service .container{
+        flex-direction: column;
+    }
+    .service .container .box{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    .service .container .contain .box{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .service .container{
+        flex-direction: column;
+    }
+    .service .container .box{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    .service .container .contain .box{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .service .container{
+        flex-direction: column;
+    }
+    .service .container .box{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    .service .container .contain .box{
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .service .container{
+        flex-direction: row;
+    }
+    .service .container .box{
+        width: 45%;
+        margin-bottom: 40px;
+    }
+    .service .container .contain .box{
+        width: 50%;
+    }
+}
+/* end service */
+.Gallery{
+    text-align: center;
+    margin-top: 70px 0;
+}
+.Gallery span{
+    color: rgb(87, 87, 87);
+    font-weight: 600;
+}
+.Gallery h2{
+    color: rgb(7, 58, 92);
+    text-align: center;
+    margin: 0 0 70px 0;
+}
+.Gallery .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.Gallery .container .box{
+    margin: 10px;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.Gallery .container .box .none{
+    position: relative;
+    display: none;
+    transition: all 1s;
+}
+.Gallery .container .box::before{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    background-color: rgba(172, 110, 51, 0.479);
+    top: 0;
+    left: 0;
+    transition: all 1s;
+}
+.Gallery .container .box:hover::before{
+    width: 100%;
+    height: 100%;
+}
+.Gallery .container .box:hover .none{
+    display: block;
+}
+.Gallery .container .box h3{
+    margin-top: 70px;
+    color: #fff;
+}
+.Gallery .container .box p{
+    color: rgb(214, 213, 213);
+}
+.Gallery .container .box1{
+    background: url(../images/blog1.jpg) no-repeat center/cover;
+}
+.Gallery .container .box2{
+    background: url(../images/blog2.jpg) no-repeat center/cover;
+}
+.Gallery .container .box3{
+    background: url(../images/blog3.jpg) no-repeat center/cover;
+}
+.Gallery .container .box4{
+    background: url(../images/blog4.jpg) no-repeat center/cover;
+}
+.Gallery .container .box5{
+    background: url(../images/blog5.jpg) no-repeat center/cover;
+}
+.Gallery .container .box6{
+    background: url(../images/blog6.jpg) no-repeat center/cover;
+}
+.Gallery .container .box7{
+    background: url(../images/blog1.jpg) no-repeat center/cover;
+}
+.Gallery .container .box8{
+    background: url(../images/blog2.jpg) no-repeat center/cover;
+}
+@media only screen and (max-width: 600px) {
+    .Gallery .container .box{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .Gallery .container .box{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .Gallery .container .box{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .Gallery .container .box{
+        width: 350px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .Gallery .container .box{
+        width: 250px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (min-width: 1920px){
+    .Gallery .container .box{
+        width: 300px;
+    }
+}
+/* end gallary ############################## */
+.person{
+    margin-top: 90px;
+    background-color: rgb(247, 247, 247);
+    padding-top: 100px;
+    overflow: hidden;
+}
+.person .head{
+    margin-bottom: 30px;
+    margin: auto;
+    text-align: center;
+}
+.person .head span{
+    color: rgb(87, 87, 87);
+    font-weight: 600;
+}
+.person .head h2{
+    color: rgb(7, 58, 92);
+    margin: 0 0 70px 0;
+}
+.person .container{
+    width: 600px;
+    text-align: center;
+}
+.person .carousel-inner{
+    text-align: center;
+}
+.person .container img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.person .container i{
+    font-size: 30px;
+    color: #f80;
+    margin: 15px;
+    cursor: pointer;
+}
+.person .container h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.person .container p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #666;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .person .container{
+        width: 300px;
+        margin: auto;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 600px) { 
+    .person{
+        width: 100%;
+        text-align: center;
+    }
+}
+/* end person ############################### */
+.cards{
+    margin-top: 100px;
+    min-height: 650px;
+    background-color: rgb(228, 228, 228);
+    padding: 30px 0;
+    padding-block: 100px;
+}
+.dis .box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.dis .box img{
+    width: 100%;
+    height: 100%;
+}
+.dis .box img{
+    width: 100%;
+    height: 100%;
+    transition: all .5s;
+}
+.dis .box img:hover{
+    transform: rotate(2deg);
+}
+.span{
+    margin-right: 150px;
+    width: 70px;
+    height: 70px;
+    color: #000;
+}
+.span2{
+    color: #000;
+    margin-left: 150px;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+.cards span{
+    color: rgb(6, 118, 223);
+    font-size: 18px;
+    cursor: pointer;
+}
+.cards h2{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.cards .links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cards .card h2{
+    font-size: 20px;
+    font-weight: normal;
+    cursor: pointer;
+}
+.cards .card span{
+    color: rgb(6, 118, 223);
+    font-size: 20px;
+    cursor: pointer;
+}
+.cards .card p{
+    color: #888;
+    cursor: pointer;
+}
+.cards .links i{
+    color: #f80;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .dis .box{
+        flex-direction: column;
+    }
+    .dis .box .card{
+        margin-top: 20px;
+    }
+    .dis .box .card-body{
+        width: 200px;
+        margin: auto
+    }
+}
+@media only screen and (min-width: 768px) {
+    .dis .box{
+        flex-direction: column;
+    }
+    .dis .box .card{
+        margin-top: 20px;
+    }
+}
+@media only screen and (min-width: 992px) { 
+    .dis .box{
+        flex-direction: row;
+    }
+    .dis .box .card{
+        margin-top: 20px;
+    }
+}
+/* end cards ########################## */
+footer{
+    padding: 30px;
+    background-color:rgba(75, 46, 19, 0.89);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .box{
+    width: 300px;
+    height: 250px;
+}
+footer .box .links i{
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+footer .box .links .fa-facebook{
+    color:rgb(0, 12, 250);
+}
+footer .box .links .fa-linkedin{
+    color:rgb(8, 54, 182);
+}
+footer .box .links .fa-twitter{
+    color:rgb(80, 214, 247);
+}
+footer .box .links .fa-instagram{
+    color:rgb(158, 69, 34);
+}
+footer .box h1{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+footer .box p{
+    font-size: 18px;
+    color: rgb(158, 158, 158);
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all .5s;
+    cursor: pointer;
+}
+footer .box p:hover{  
+    color: rgb(58, 166, 255);
+}
+footer .box form input{  
+    display: block;
+    width: 250px;
+    border-radius: 20px;
+    border-radius: 20px;
+    border: 0;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+footer .box form a{  
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(39, 174, 252);
+    width: 250px;
+    border-radius: 20px;
+    border: 0;
+    outline: none;
+}
+@media only screen and (max-width: 600px) {
+    footer{
+        flex-direction: column;
+        padding-bottom: 70px;
+    }
+    footer .box{
+        text-align: center;
+        width: 100%;
+        margin:50px auto;
+    }
+    footer .box form input, 
+    footer .box form a{  
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 600px){
+    footer{
+        flex-direction: column;
+    }
+    footer .box{
+        text-align: center;
+        width: 100%;
+        margin:50px auto;
+    }
+    footer .box form input, 
+    footer .box form a{  
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 768px){
+    footer{
+        flex-flow: row wrap;
+    }
+    footer .box{
+        width: 250px;
+        margin-bottom: 30px;
+        height: 300px;
+    }
+}
+@media only screen and (min-width: 992px){
+    footer{
+        flex-direction: row;
+    }
+    footer .box{
+        width: 250px;
+    }
+}
+.end{
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(41, 25, 10, 0.89);
+    color: #fff;
+    font-size: 20px;
+}
+h2:hover{
+    color: #f80;
+}
+h3:hover{
+    color: #f80;
+}
+p:hover{
+    color: #f80;
+}

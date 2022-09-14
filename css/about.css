@@ -1,0 +1,526 @@
+.logo i,
+.logo a{
+    color: rgb(194, 89, 28);
+}
+/* body{
+    height: 2000px;
+} */
+header{
+    overflow: hidden; 
+    
+}
+.landing{
+    background: url(../images/innerbg.jpg) center/cover fixed;
+    height: 50vh;
+}
+.landing h2{
+    text-align: center;
+    padding-top: 10%;
+    color: #fff;
+}
+@media only screen and (max-width: 600px) {
+    .landing{
+        overflow: hidden; 
+        height: 40vh;
+    }
+}
+@media only screen and (min-width: 600px){
+    .landing{
+        overflow: hidden; 
+        height: 50vh;
+    }
+}
+header img{
+    width: 100%;
+    height: 100%;
+}
+#mood{
+    display: none;
+}
+.orang{
+    background-color: #f80;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+}
+/* end header ############################### */
+.about{
+    margin-top: 70px;
+}
+.about .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .container .box{
+    width: 65%;
+    margin-bottom: 20px;
+}
+.about .container .box span{
+    font-weight: 600;
+    color: #777;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.about .container .box h2{
+    color: rgb(7, 58, 92);
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.about .container .box p{
+    font-size: 18px;
+    color: #777;
+}
+.about .container .img{
+    width: 30%;
+    margin-bottom: 20px;
+}
+.about .container .img img{
+    width: 100%;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .about .container{
+        flex-direction: column;
+    }
+    .about .container .box{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .about .container{
+        flex-direction: column;
+    }
+    .about .container .box{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .about .container{
+        flex-direction: column;
+    }
+    .about .container .box{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .about .container{
+        flex-direction: row;
+    }
+    .about .container .box{
+        width: 65%;
+    }
+    .about .container .img{
+        width: 30%;
+    }
+}
+/* end about ############################# */
+.variety{
+    margin-top: 70px;
+}
+.variety .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.variety .container .box{
+    width: 45%;
+    margin-bottom: 20px;
+}
+.variety .container .img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.variety .container .box h2{
+    color: rgb(7, 58, 92);
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.variety .container .box p{
+    font-size: 18px;
+    color: #777;
+}
+@media only screen and (max-width: 600px) {
+    .variety .container{
+        flex-direction: column;
+    }
+    .variety .container .box{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .variety .container{
+        flex-direction: column;
+    }
+    .variety .container .box{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .variety .container{
+        flex-direction: column;
+    }
+    .variety .container .box{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .variety .container{
+        flex-direction: row;
+    }
+    .variety .container .box{
+        width: 45%;
+    }
+}
+/* end variety ########################### */
+.aroma{
+    margin-top: 70px;
+}
+.aroma .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.aroma .container .box{
+    text-align: center;
+    margin-bottom: 20px;
+    width: 350px;
+}
+.aroma  .container .box i{
+    color: rgb(194, 89, 28);
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.aroma  .container .box h2{
+    color: rgb(7, 58, 92);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.aroma  .container .box p{
+    font-size: 18px;
+    color: #777;
+}
+@media only screen and (max-width: 600px) {
+    .aroma .container{
+        flex-direction: column;
+    }
+    .aroma .container .box{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .aroma .container{
+        flex-direction: column;
+    }
+    .aroma .container .box{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .aroma .container{
+        flex-direction: column;
+    }
+    .aroma .container .box{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .aroma .container{
+        flex-direction: row;
+    }
+    .aroma .container .box{
+        width: 45%;
+    }
+}
+/* end aroma ######################### */
+.COFFEE-SHOP{
+    background: url(../images/1.jpg) center/cover;
+    padding: 100px 0;
+    position: relative;
+}
+.COFFEE-SHOP::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.658);
+    z-index: 1;
+}
+.COFFEE-SHOP .container{
+    position: relative;
+    z-index: 2;
+}
+.COFFEE-SHOP span{
+    font-weight: 600;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.COFFEE-SHOP h1{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.COFFEE-SHOP p{
+    font-size:20px;
+    font-weight: 600;
+    color: #fff;
+}
+/* end COFFEE-SHOP ############################*/
+.out-team{
+    margin-top: 70px;
+}
+.out-team .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.out-team .container .info{
+    position: relative;
+    z-index: 3;
+    display: none;
+}
+.out-team .container .info i{
+    margin: 60% 15px;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.out-team .container .box{
+    position: relative;
+    text-align: center;
+    margin: 20px 10px;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.out-team .container .box::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 0%;
+    background-color: rgba(199, 93, 7, 0.459);
+    z-index: 1;
+    transition: all 1s;
+}
+.out-team .container .box:hover .info{
+    display: block;
+}
+.out-team .container .box:hover:before{
+    width: 100%;
+    height: 100%;
+}
+.out-team .container .box1{
+    background: url(../images/team1.jpg) no-repeat center/cover;
+}
+.out-team .container .box2{
+    background: url(../images/team2.jpg) no-repeat center/cover;
+}
+.out-team  .container .box3{
+    background: url(../images/team3.jpg) no-repeat center/cover;
+}
+.out-team  .container .box4{
+    background: url(../images/team4.jpg) no-repeat center/cover;
+}
+.out-team .container .box h2{
+    color: rgb(7, 58, 92);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.out-team .container .box p{
+    font-size: 18px;
+    color: #777;
+}
+@media only screen and (max-width: 600px) {
+    .out-team .container{
+        flex-direction: column;
+    }
+    .out-team .container .box{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .out-team .container{
+        flex-direction: column;
+    }
+    .out-team .container .box{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .out-team .container{
+        flex-direction: column;
+    }
+    .out-team .container .box{
+        width: 45%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .out-team .container{
+        flex-direction: row;
+    }
+    .out-team .container .box{
+        width: 45%;
+        margin: 10px;
+    }
+}
+/* end aroma ######################### */
+footer{
+    padding: 30px;
+    background-color:rgba(75, 46, 19, 0.89);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .box{
+    width: 300px;
+    height: 250px;
+}
+footer .box .links i{
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+footer .box .links .fa-facebook{
+    color:rgb(0, 12, 250);
+}
+footer .box .links .fa-linkedin{
+    color:rgb(8, 54, 182);
+}
+footer .box .links .fa-twitter{
+    color:rgb(80, 214, 247);
+}
+footer .box .links .fa-instagram{
+    color:rgb(158, 69, 34);
+}
+footer .box h1{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+footer .box p{
+    font-size: 18px;
+    color: rgb(158, 158, 158);
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all .5s;
+    cursor: pointer;
+}
+footer .box p:hover{  
+    color: rgb(58, 166, 255);
+}
+footer .box form input{  
+    display: block;
+    width: 250px;
+    border-radius: 20px;
+    border-radius: 20px;
+    border: 0;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+footer .box form a{  
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(39, 174, 252);
+    width: 250px;
+    border-radius: 20px;
+    border: 0;
+    outline: none;
+}
+@media only screen and (max-width: 600px) {
+    footer{
+        flex-direction: column;
+        padding-bottom: 70px;
+    }
+    footer .box{
+        text-align: center;
+        width: 100%;
+        margin:50px auto;
+    }
+    footer .box form input, 
+    footer .box form a{  
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 600px){
+    footer{
+        flex-direction: column;
+    }
+    footer .box{
+        text-align: center;
+        width: 100%;
+        margin:50px auto;
+    }
+    footer .box form input, 
+    footer .box form a{  
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 768px){
+    footer{
+        flex-flow: row wrap;
+    }
+    footer .box{
+        width: 250px;
+        margin-bottom: 30px;
+        height: 300px;
+    }
+}
+@media only screen and (min-width: 992px){
+    footer{
+        flex-direction: row;
+    }
+    footer .box{
+        width: 250px;
+    }
+}
+.end{
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(41, 25, 10, 0.89);
+    color: #fff;
+    font-size: 20px;
+}
+h2:hover{
+    color: #f80;
+}
+h3:hover{
+    color: #f80;
+}
+p:hover{
+    color: #f80;
+}

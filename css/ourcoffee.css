@@ -1,0 +1,479 @@
+.logo i,
+.logo a{
+    color: rgb(194, 89, 28);
+}
+header{
+    overflow: hidden; 
+    
+}
+.landing{
+    background: url(../images/innerbg.jpg) center/cover fixed;
+    height: 50vh;
+}
+.landing h2{
+    text-align: center;
+    padding-top: 10%;
+    color: #fff;
+}
+@media only screen and (max-width: 600px) {
+    .landing{
+        overflow: hidden; 
+        height: 40vh;
+    }
+}
+@media only screen and (min-width: 600px){
+    .landing{
+        overflow: hidden; 
+        height: 50vh;
+    }
+}
+header img{
+    width: 100%;
+    height: 100%;
+}
+#mood{
+    display: none;
+}
+.orang{
+    background-color: #f80;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+}
+/* end header ############################### */
+.Cappuccino{
+    background-color: rgb(241, 240, 240);
+    padding-bottom: 70px;
+}
+.Cappuccino .container ul{
+    padding-top: 50px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+.Cappuccino .container ul li img{
+    border-radius: 10px 10px 0 0;
+    width: 150px;
+    cursor: pointer;
+    padding: 20px;
+}
+.Cappuccino .container ul li .active{
+    background-color: #fff;
+}
+.Cappuccino .content{
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 30px 0;
+}
+.Cappuccino .content .box{
+    width: 45%;
+}
+.Cappuccino .content .box h1{
+    color: #f80;
+    font-size: 50px;
+}
+.Cappuccino .content .box h2{
+    color: rgb(7, 58, 92);
+    font-size: 30px;
+}
+.Cappuccino .content .box p{
+    color: #777;
+    font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .Cappuccino .content{
+        padding: 70px 0;
+    }
+    .Cappuccino .container ul{
+        flex-direction: column;
+        margin: auto;
+        padding: 0;
+    }
+    .Cappuccino .content{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        padding: 50px 0;
+    }
+    .Cappuccino .content .box{
+        width: 80%;
+        margin: auto;
+    }
+    .Cappuccino .content .box img{
+        width: 100%;
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .Cappuccino .container ul{
+        flex-direction: column;
+        margin: auto;
+        padding: 0;
+    }
+    .Cappuccino .content{
+        flex-direction: column;
+        margin: 0;
+        padding:70px 0;
+    }
+    .Cappuccino .content .box{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .Cappuccino .container ul{
+        flex-direction: row;
+        margin: auto;
+        padding: 0;
+    }
+    .Cappuccino .container ul li img{
+        width: 100px;
+    }
+    .Cappuccino .content{
+        flex-direction: column;
+        margin: 0;
+        padding:70px 0;
+    }
+    .Cappuccino .content .box{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .Cappuccino .container ul{
+        flex-direction: row;
+        margin: auto;
+        padding: 0;
+    }
+    .Cappuccino .container ul li img{
+        width: 150px;
+    }
+    .Cappuccino .content{
+        flex-direction: row;
+        margin: 0;
+        padding:70px 0;
+    }
+    .Cappuccino .content .box{
+        margin: auto;
+    }
+}
+/* end cappuccino ############################## */
+.Discover{
+    margin: 70px 0;
+}
+.Discover .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Discover .container .box{
+    width: 50%;
+}
+.Discover .container .box h2{
+    color: rgb(7, 58, 92);
+    font-size: 50px;
+}
+.Discover .box p{
+    color: #777;
+    font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .Discover .container{
+        flex-direction: column;
+        margin: auto;
+        padding: 0;
+    }
+    .Discover .content{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        padding: 50px 0;
+    }
+    .Discover .box{
+        width: 100%;
+        margin: auto;
+    }
+    .Discover .box img{
+        width: 100%;
+        margin: auto;
+        margin-top: 50px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .Discover .container{
+        flex-direction: column;
+        margin: auto;
+        padding: 0;
+    }
+    .Discover .content{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        padding: 50px 0;
+    }
+    .Discover .box{
+        width: 100%;
+        margin: auto;
+    }
+    .Discover .box img{
+        width: 100%;
+        margin: auto;
+        margin-top: 50px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .Discover .container{
+        flex-direction: row;
+        margin: auto;
+        padding: 0;
+    }
+    .Discover .container ul li img{
+        width: 100px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .Discover .container ul{
+        flex-direction: row;
+        margin: auto;
+        padding: 0;
+    }
+    .Discover .container ul li img{
+        width: 80px;
+    }
+    .Discover .content{
+        flex-direction: row;
+        margin: 0;
+        padding:70px 0;
+    }
+    .Discover .content .box{
+        margin: auto;
+    }
+}
+/* end Discover ############################ */
+.favourites{
+    margin: 70px 0;
+    background-color: rgb(240, 239, 239);
+    padding: 50px 0;
+}
+.favourites .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 0;
+}
+.favourites .container .box1{
+    padding: 0 20px;
+}
+.favourites .container .box{
+    width: 50%;
+}
+.favourites .container .box img{
+    width: 100%;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+}
+@media only screen and (max-width: 600px) {
+    .favourites {
+        padding: 70px 0;
+    }
+    .favourites .container{
+        flex-direction: column;
+    }
+    .favourites .container .box1{
+        padding: 0;
+    }
+    .favourites .box{
+        width: 100%;
+        margin: auto;
+        margin: 20px 0;
+    }
+    .favourites .box img{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .favourites {
+        padding: 70px 0;
+    }
+    .favourites .container{
+        flex-direction: column;
+    }
+    .favourites .container .box1{
+        padding: 0;
+    }
+    .favourites .box{
+        width: 100%;
+        margin: auto;
+        margin: 20px 0;
+    }
+    .favourites .box img{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .favourites .container{
+        flex-direction: row;
+        margin: auto;
+        padding: 0;
+    }
+    .favourites .container ul li img{
+        width: 100px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .favourites .container ul{
+        flex-direction: row;
+        margin: auto;
+        padding: 0;
+    }
+    .favourites .container ul li img{
+        width: 80px;
+    }
+    .favourites .content{
+        flex-direction: row;
+        margin: 0;
+        padding:70px 0;
+    }
+    .favourites .container .box1{
+        padding: 0 10px;
+    }
+}
+/* end favourites #############################*/
+footer{
+    padding: 30px;
+    background-color:rgba(75, 46, 19, 0.89);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .box{
+    width: 300px;
+    height: 250px;
+}
+footer .box .links i{
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+footer .box .links .fa-facebook{
+    color:rgb(0, 12, 250);
+}
+footer .box .links .fa-linkedin{
+    color:rgb(8, 54, 182);
+}
+footer .box .links .fa-twitter{
+    color:rgb(80, 214, 247);
+}
+footer .box .links .fa-instagram{
+    color:rgb(158, 69, 34);
+}
+footer .box h1{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+footer .box p{
+    font-size: 18px;
+    color: rgb(158, 158, 158);
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all .5s;
+    cursor: pointer;
+}
+footer .box p:hover{  
+    color: rgb(58, 166, 255);
+}
+footer .box form input{  
+    display: block;
+    width: 250px;
+    border-radius: 20px;
+    border-radius: 20px;
+    border: 0;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+footer .box form a{  
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(39, 174, 252);
+    width: 250px;
+    border-radius: 20px;
+    border: 0;
+    outline: none;
+}
+@media only screen and (max-width: 600px) {
+    footer{
+        flex-direction: column;
+        padding-bottom: 70px;
+    }
+    footer .box{
+        text-align: center;
+        width: 100%;
+        margin:50px auto;
+    }
+    footer .box form input, 
+    footer .box form a{  
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 600px){
+    footer{
+        flex-direction: column;
+    }
+    footer .box{
+        text-align: center;
+        width: 100%;
+        margin:50px auto;
+    }
+    footer .box form input, 
+    footer .box form a{  
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 768px){
+    footer{
+        flex-flow: row wrap;
+    }
+    footer .box{
+        width: 250px;
+        margin-bottom: 30px;
+        height: 300px;
+    }
+}
+@media only screen and (min-width: 992px){
+    footer{
+        flex-direction: row;
+    }
+    footer .box{
+        width: 250px;
+    }
+}
+.end{
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(41, 25, 10, 0.89);
+    color: #fff;
+    font-size: 20px;
+}
+h2:hover{
+    color: #f80;
+}
+h3:hover{
+    color: #f80;
+}
+p:hover{
+    color: #f80;
+}
